@@ -4,57 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebStudio</title>
 </head>
 <body>
     <header>
        
         <nav>
-            <ul>
-                <li><a href="#">Студия</a></li>
-                <li><a href="#">Портфолио</a></li>
-                <li><a href="#">Контакты</a></li>
+            <a href="#">WebStudio</a>
+            <ul class="header-links">
+                <li class="header-link"><a href="#">Студия</a></li>
+                <li class="header-link"><a href="#">Портфолио</a></li>
+                <li class="header-link"><a href="#">Контакты</a></li>
             </ul>
         
-        <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="header-contacts">
+        <li class="header-contact"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="header-contact"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
         </nav>
     </header>
     <main>
         <section class="hero">
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <a href="#">Заказать услугу</a>
+            <h1 class="hero-h1">Эффективные решения для вашего бизнеса</h1>
+            <a href="#" class="hero-link">Заказать услугу</a>
         </section>
         <section class="qualities">
-            <ul>
-                <li class="qualities-items">
-                    <h2 class="qualities-heads">Внимание к деталям</h2>
+            <h3 class="our-qualities-h2"></h3>
+            <ul class="qualities-items">
+                <li class="qualities-item">
+                    <h3 class="qualities-heads">Внимание к деталям</h3>
                     <p class="qualities-descr">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li class="qualities-items">
-                    <h2 class="qualities-heads">Пунктуальность</h2>
+                <li class="qualities-item">
+                    <h3 class="qualities-heads">Пунктуальность</h3>
                     <p class="qualities-descr">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li class="qualities-items">
-                    <h2 class="qualities-heads">Планирование</h2>
+                <li class="qualities-item">
+                    <h3 class="qualities-heads">Планирование</h3>
                     <p class="qualities-descr">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li class="qualities-items">
-                    <h2 class="qualities-heads">Современные технологии</h2>
+                <li class="qualities-item">
+                    <h3 class="qualities-heads">Современные технологии</h3>
                     <p class="qualities-descr">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
         <section class="what-we-do">
             <h2 class="what-we-do">Чем мы занимаемся</h2>
-            <ul>
-                <li><img src="imgs/coding.jpg" alt="Кодинг" ></li>
-                <li><img src="imgs/designining.jpg" alt="Веб-розробка для телефонів"></li>
-                <li><img src="imgs/coloring.jpg" alt="Стилізація кольорів"></li>
+            <ul class="what-we-do-items">
+                <li class="what-we-do-item"><img src="imgs/coding.jpg" alt="Кодинг" ></li>
+                <li class="what-we-do-item"><img src="imgs/designining.jpg" alt="Веб-розробка для телефонів"></li>
+                <li class="what-we-do-item"><img src="imgs/coloring.jpg" alt="Стилізація кольорів"></li>
+            </ul>
+        </section>
+        <section class="our-team">
+            <ul class="team-members">
+                <li class="team-member"><img src="imgs/man1.jpg" alt="Хлопець щиро посміхається"><h3 class="member-name">Игорь Демьяненко</h3><p class="member-job">Product Designer</p></li>
+                <li class="team-member"><img src="imgs/girl.jpg" alt="Дівчина щиро посміхається"><h3 class="member-name">Ольга Репина</h3><p class="member-job">Frontend Developer</p></li>
+                <li class="team-member"><img src="imgs/man2.jpg" alt="Хлопець щиро посміхається не в камеру"><h3 class="member-name">Николай Тарасов</h3><p class="member-job">Marketing</p></li>
+                <li class="team-member"><img src="imgs/man3.jpg" alt="Хлопець впевнено дивиться"><h3 class="member-name">Михаил Ермаков</h3><p class="member-job">UI Designer</p></li>
             </ul>
         </section>
     </main>
+    <footer>
+        <a href="#" class="webstudio-logo">WebStudio</a>
+        <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
+        <a href="mailto:info@example.com" class="footer-contact">info@example.com</a>
+        <a href="tel:+380991111111" class="footer-contact">+38 099 111 11 11</a>
+    </footer>
 </body>
 </html>
